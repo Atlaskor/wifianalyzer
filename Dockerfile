@@ -5,6 +5,6 @@ WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY generate_heatmap.py ./
+COPY wifi_survey_heatmap/ ./wifi_survey_heatmap/
 
-CMD ["python", "generate_heatmap.py", "--help"]
+CMD ["python", "-m", "wifi_survey_heatmap", "--help"]
