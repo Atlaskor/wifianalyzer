@@ -1,5 +1,5 @@
-matplotlib
-pandas
-numpy
-scipy
-Pillow
+matplotlib>=3.1.2
+pandas>=0.25.3
+numpy>=1.18.1
+scipy>=1.4.1
+Pillow>=6.2.1
