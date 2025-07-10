@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  wifi-heatmap:
+    build: .
+    volumes:
+      - ./data:/app/data    # Data folder for input/output
+    command: python generate_heatmap.py --help
