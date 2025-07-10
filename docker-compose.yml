@@ -3,5 +3,5 @@ services:
   wifi-heatmap:
     build: .
     volumes:
-      - ./data:/app/data    # Data folder for input/output
+      - ./data:/app/data
     command: python generate_heatmap.py --help
